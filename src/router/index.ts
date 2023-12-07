@@ -21,6 +21,14 @@ export const constantRoutes: RouteRecordRaw[] = [
     component: () => import("@/views/login/index.vue"),
     meta: { hidden: true },
   },
+  {
+    // bpmn路由
+    path: "/system/bpmn",
+    component: () => import("@/views/system/bpmn/index.vue"),
+    meta: {
+      hidden: true,
+    },
+  },
 
   {
     path: "/",
